@@ -1,0 +1,74 @@
+<html lang="en">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BNN Christian Youth</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+
+    </head>
+
+    <!-- The purpose of this site is to provide a platform for Christian youth to connect, 
+     share, and grow in their faith. It will contain an introduction text explaining the site, 
+     and then a searchable dataset of christian youth within the Baptist Network Northwest community.
+      The search will be refined based on name and then state, showing all matching names. 
+      Upon clicking the name it will bring up a bio for that person. -->
+
+    <body>
+        
+        <header>
+            <h1>BNN Christian Youth</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#search">Search</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home">
+                <h2>Welcome to BNN Christian Youth</h2>
+                <p>This platform is designed for Christian youth to connect, share, and grow in their faith.</p>
+            </section>
+
+            <section id="about">
+                <h2>About Us</h2>
+                <p>We are a community of young Christians within the Baptist Network Northwest, dedicated to fostering relationships and spiritual growth.</p>
+            </section>
+
+            <section id="search">
+                <h2>Search for Youth Members</h2>
+                <!-- Search functionality will be implemented here -->
+                <form id="searchForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter name">
+                    
+                    <label for="state">State:</label>
+                    <!-- a dropdown list for us states -->
+                    <select id="state" name="state">
+                        <option value="">Select State</option>
+                        <option value="WA">Washington</option>
+                        <option value="OR">Oregon</option>
+                        <option value="ID">Idaho</option>
+                        <option value="CA">California</option>
+                        <option value="NV">Nevada</option>
+                        <!-- Add more states as needed -->
+
+                    </select>
+                    
+
+                    <button type="submit">Search</button>
+                </form>
+            </section>
+
+            <section>
+                <h2>Search Results</h2>
+                <div id="results">
+                    <!-- Search results will be displayed here -->
+                </div>
+
+        </main>
