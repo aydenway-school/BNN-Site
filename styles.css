@@ -157,7 +157,7 @@ form button:hover {
 .member-info {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
     /* align-items: flex-end; */
 }
 
