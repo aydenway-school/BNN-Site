@@ -45,7 +45,7 @@ document.getElementById('searchForm').addEventListener('submit', function(event)
                         <div>
                             <img src="https://placehold.co/300" alt="${member.name}" class="member-image"> 
                         </div>
-                        <div style="display: flex; flex-direction: column;">
+                        <div style="display: flex; flex-direction: column; margin-left: 1rem;">
                             <p><strong>Connected Church:</strong> ${member.church}</p>   
                             <br>                    
                             <p id="bioText">${member.bio}</p>
