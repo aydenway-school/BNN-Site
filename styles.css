@@ -144,6 +144,16 @@ form button:hover {
     text-align: center;
 }
 
+.member-title {
+
+    display: flex; 
+    align-items: center; 
+    background-color: #c84735;
+    align-items: center;
+    justify-content: center;
+
+}
+
 
 .bio {
     display: none; /* Hidden by default */
